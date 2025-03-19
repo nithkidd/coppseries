@@ -1,17 +1,17 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/', // Use root path for most deployments
+  base: "/coppseries/", // Use root path for most deployments
   build: {
-    outDir: 'dist',
+    outDir: "dist",
     sourcemap: true,
-    assetsDir: 'assets',
+    assetsDir: "assets",
   },
   resolve: {
     alias: {
-      '@': '/src'
-    }
-  }
-})
+      "@": "/src",
+    },
+  },
+});
