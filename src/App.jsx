@@ -1,4 +1,5 @@
 import "./App.css";
+import { HashRouter as Router } from "react-router-dom";
 import "./styles/theme.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { motion } from "framer-motion";
